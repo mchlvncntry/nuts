@@ -1,7 +1,7 @@
 [
   {
     "prodid": 1,
-    "image": "../../assets/cherrychoc.jpg",
+    "image": "../assets/cherrychoc.jpg",
     "shortdesc": "Cherry Choc",
     "longdesc": "Dried cherry pieces covered with dark chocolate",
     "unitsize": "2.4 oz",
