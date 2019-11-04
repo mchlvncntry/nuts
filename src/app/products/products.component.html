@@ -1,0 +1,13 @@
+<div class="welcome">
+  <h1>Products</h1>
+  <ul *ngIf="Products" class="productlist">
+    <li *ngFor="let product of Products" class="productrow">
+      <div class="productrow">
+        <img class="productimg" [src]="product.image" alt="thumbnail image of {{ product.shortdesc }}">
+        <p class="productname">{{ product.shortdesc }}</p>
+        <p class="productdescription">{{ product.longdesc }}</p>
+        <p>{{ product.unitsize }} {{ product.unitprice }}</p>
+      </div>
+    </li>
+  </ul>
+</div>

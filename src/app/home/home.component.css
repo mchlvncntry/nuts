@@ -1,0 +1,9 @@
+.welcome {
+
+  padding: 0 1em;
+  width: 70%;
+}
+.welcome p {
+  font-size: large;
+  justify-content: end;
+}

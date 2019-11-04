@@ -1,0 +1,27 @@
+.productlist {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.productrow {
+  border-radius: 20px;
+  margin: 5px auto;
+  padding: 5px;
+}
+
+.productname {
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.productdescription {
+  font-size: 1em;
+}
+
+.productimg {
+  float: left;
+  width: 130px;
+  height: 120px;
+  margin: 5px;
+}
